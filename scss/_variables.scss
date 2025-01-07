@@ -1,0 +1,88 @@
+
+
+$title-color: #121212;
+$text-color: #404040;
+$bg-color: #195360;
+$link-color: #f5f5f5;
+$text-color-2: #60a2b8;
+$title-2-color: #7b3838;
+
+%textTitle {
+  font-family: "Inter" sans-serif;
+  font-size: 48px;
+  font-weight: 700;
+  line-height: 63px;
+}
+
+%textTitleTwo {
+    font-family: 'Inter' sans-serif;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 64px;
+}
+
+%textTitleThree {
+    font-family: 'Inter' sans-serif;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 39px;
+}
+
+%textTitleOffers {
+    font-family: "Inter" sans-serif;
+    font-size: 54px;
+    font-weight: 700;
+    line-height: 86px;
+}
+
+%textTitleOffersTwo {
+    font-family: "Inter" sans-serif;
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 57px;
+}
+
+%textTitleMarengo {
+    font-family: "Inter" sans-serif;
+    font-size: 54px;
+    font-weight: 700;
+    line-height: 39px;
+}
+
+%textPar {
+    font-family: 'Inter' sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 29px;
+}
+
+%textWinePar {
+    font-family: 'Inter' sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+}
+
+%link {
+    font-family: 'Inter' sans-serif;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 29px;
+}
+
+%textLink {
+    font-family: 'Inter' sans-serif;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 26px;
+}
+
+%textLinkTwo {
+    font-family: 'Inter' sans-serif;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 23px;
+}
+
+
+

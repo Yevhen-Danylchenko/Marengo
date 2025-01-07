@@ -1,0 +1,432 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");
+.text h1 {
+  font-family: "Inter" sans-serif;
+  font-size: 48px;
+  font-weight: 700;
+  line-height: 63px;
+}
+
+.div-wine-group h2 {
+  font-family: "Inter" sans-serif;
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 64px;
+}
+
+.footer-content h3, .div-content-rest p, .div-people p, .marengo-content-div p, .div-title-2 h3, .div-title-1 h3, .div-title h3, .logo-text {
+  font-family: "Inter" sans-serif;
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 39px;
+}
+
+.div-offers h2 {
+  font-family: "Inter" sans-serif;
+  font-size: 54px;
+  font-weight: 700;
+  line-height: 86px;
+}
+
+.footer-title, .div-people h3, .offers-title-two, .offers-title {
+  font-family: "Inter" sans-serif;
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 57px;
+}
+
+.div-rest-content h2, .marengo-content h2 {
+  font-family: "Inter" sans-serif;
+  font-size: 54px;
+  font-weight: 700;
+  line-height: 39px;
+}
+
+.footer-content a, .footer-content p, .div-rest-content p, .text p {
+  font-family: "Inter" sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 29px;
+}
+
+.div-wine-group p {
+  font-family: "Inter" sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px;
+}
+
+.marengo-content-div p span, .marengo-content p, .link a {
+  font-family: "Inter" sans-serif;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 29px;
+}
+
+.link-text {
+  font-family: "Inter" sans-serif;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 26px;
+}
+
+.link-1 a {
+  font-family: "Inter" sans-serif;
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 23px;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+/* ========================= General ====================== */
+a {
+  text-decoration: none;
+}
+
+ul {
+  list-style: none;
+}
+
+.container {
+  width: 1600px;
+  margin: 0 auto;
+}
+
+.flex {
+  display: flex;
+}
+
+/* ======================== Header ======================= */
+.header-content {
+  justify-content: space-between;
+  align-items: center;
+  background-color: #f5f5f5;
+  padding: 0 90px;
+}
+
+.logo {
+  align-items: center;
+  gap: 25px;
+}
+
+.logo-text {
+  color: #60a2b8;
+}
+
+.link-text-1 {
+  gap: 70px;
+}
+
+.link-text {
+  color: #60a2b8;
+}
+
+.link-text:hover {
+  color: #195360;
+  font-size: 20px;
+}
+
+/* ========================= Section 1 ======================= */
+.content {
+  position: relative;
+  height: 910px;
+  background-image: linear-gradient(to bottom, #F5F5F5, #60A2B8);
+}
+
+.text h1 {
+  width: 720px;
+  position: absolute;
+  color: #121212;
+  top: 290px;
+  left: 90px;
+}
+
+.text p {
+  width: 540px;
+  position: absolute;
+  color: #404040;
+  top: 461px;
+  left: 90px;
+}
+
+.link {
+  width: 259px;
+  height: 57px;
+  position: absolute;
+  background-color: #195360;
+  text-align: center;
+  padding-top: 14px;
+  top: 624px;
+  left: 90px;
+}
+
+.link a {
+  text-transform: uppercase;
+  color: #f5f5f5;
+}
+
+.photo {
+  position: absolute;
+  top: 253px;
+  left: 763px;
+}
+
+.photo-2 {
+  position: absolute;
+  top: 731px;
+  left: 722px;
+  z-index: 1;
+}
+
+/* ====================== Section 2 ================== */
+.div-content {
+  width: 100%;
+  position: relative;
+}
+
+.div-title {
+  position: absolute;
+  top: 120px;
+  left: 90px;
+}
+
+.div-title-1 {
+  position: absolute;
+  top: 120px;
+  left: 570px;
+}
+
+.div-title-2 {
+  position: absolute;
+  top: 120px;
+  left: 1050px;
+}
+
+.div-title h3 {
+  text-align: center;
+  color: #404040;
+  margin-top: 25px;
+}
+
+.div-title-1 h3 {
+  text-align: center;
+  color: #404040;
+  margin-top: 25px;
+}
+
+.div-title-2 h3 {
+  text-align: center;
+  color: #404040;
+  margin-top: 25px;
+}
+
+/* ========================== Section 3 ==================== */
+.div-wine-group {
+  width: 100%;
+  position: relative;
+  top: 705px;
+}
+
+.wine {
+  position: absolute;
+  left: 90px;
+}
+
+.div-wine-group h2 {
+  width: 450px;
+  position: absolute;
+  color: #7b3838;
+  top: 13px;
+  left: 1050px;
+}
+
+.div-wine-group p {
+  position: absolute;
+  color: #404040;
+  top: 171px;
+  left: 1050px;
+}
+
+.link-1 {
+  width: 229px;
+  height: 57px;
+  position: absolute;
+  background-color: #195360;
+  text-align: center;
+  padding-top: 18px;
+  top: 335px;
+  left: 1050px;
+}
+
+.link-1 a {
+  text-transform: uppercase;
+  color: #f5f5f5;
+}
+
+.div-offers {
+  width: 100%;
+  position: relative;
+  background-color: #195360;
+  padding: 115px 90px 131px;
+  top: 1292px;
+}
+
+.div-offers h2 {
+  text-align: center;
+  text-transform: uppercase;
+  color: #f5f5f5;
+}
+
+.div-offers-content {
+  gap: 20px;
+}
+
+.offers-title {
+  width: 374px;
+  text-align: center;
+  text-transform: uppercase;
+  color: #f5f5f5;
+  margin-top: -100px;
+  margin-left: 40px;
+}
+
+.offers-title-two {
+  width: 374px;
+  text-align: center;
+  text-transform: uppercase;
+  color: #f5f5f5;
+  margin-top: -140px;
+  margin-left: 40px;
+}
+
+.div-content-marengo {
+  width: 100%;
+  position: relative;
+  gap: 20px;
+  padding: 120px 90px 102px;
+  top: 1292px;
+}
+
+.marengo-content h2 {
+  color: #7b3838;
+}
+
+.marengo-content p {
+  width: 600px;
+  color: #404040;
+}
+
+.marengo-content-div {
+  justify-content: center;
+  gap: 20px;
+}
+
+.marengo-content-div div {
+  margin-bottom: 30px;
+}
+
+.marengo-content-div p {
+  text-transform: uppercase;
+  color: #7b3838;
+}
+
+.marengo-content-div p span {
+  text-transform: none;
+  color: #404040;
+}
+
+.div-people {
+  width: 100%;
+  background-color: #195360;
+  justify-content: space-around;
+  align-items: center;
+  padding: 111px 128px 56px;
+  margin-top: 1277px;
+}
+
+.div-people h3 {
+  text-align: center;
+  color: #60a2b8;
+}
+
+.div-people p {
+  text-align: center;
+  color: #f5f5f5;
+}
+
+.div-rest-content {
+  gap: 70px;
+  padding-top: 120px;
+}
+
+.div-rest-content h2 {
+  text-transform: uppercase;
+  text-align: center;
+  color: #7b3838;
+  margin-left: 60px;
+}
+
+.div-rest-content p {
+  color: #404040;
+}
+
+.div-content-rest {
+  gap: 79px;
+  margin-left: 60px;
+  margin-bottom: 51px;
+}
+
+.div-content-rest p {
+  text-align: center;
+  color: #7b3838;
+}
+
+.footer {
+  padding-top: 177px;
+  padding-bottom: 50px;
+}
+
+.footer-title {
+  text-align: center;
+  text-transform: uppercase;
+  color: #404040;
+}
+
+.div-footer {
+  justify-content: space-around;
+}
+
+.footer-content {
+  width: 181px;
+}
+
+.flex-two {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.border {
+  width: 100px;
+  border-bottom: 1px solid #404040;
+  margin-bottom: 15px;
+}
+
+.footer-content h3 {
+  text-align: center;
+  text-transform: uppercase;
+  color: #404040;
+}
+
+.footer-content p {
+  text-align: center;
+  color: #404040;
+  margin-top: 0;
+}
+
+.footer-content a {
+  text-align: center;
+  color: #404040;
+}

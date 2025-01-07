@@ -1,0 +1,66 @@
+// ====================== Footer =====================
+
+.footer {
+    padding-top: 177px;
+    padding-bottom: 50px;
+}
+
+.footer-title {
+    @extend %textTitleOffersTwo;
+
+    text-align: center;
+    text-transform: uppercase;
+
+    color: $text-color;
+}
+
+.div-footer {
+    justify-content: space-around;
+}
+
+.footer-content {
+    width: 181px;
+}
+
+.flex-two {
+    display: flex;
+
+    flex-direction: column;
+
+    align-items: center;
+}
+
+.border {
+    width: 100px;
+
+    border-bottom: 1px solid $text-color;
+
+    margin-bottom: 15px;
+}
+
+.footer-content h3 {
+    @extend %textTitleThree;
+
+    text-align: center;
+    text-transform: uppercase;
+
+    color: $text-color;
+}
+
+.footer-content p {
+    @extend %textPar;
+
+    text-align: center;
+
+    color: $text-color;
+
+    margin-top: 0;
+}
+
+.footer-content a {
+    @extend %textPar;
+
+    text-align: center;
+
+    color: $text-color;
+}

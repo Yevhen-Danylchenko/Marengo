@@ -1,0 +1,41 @@
+
+
+/* ======================== Header ======================= */
+
+.header-content {
+    justify-content: space-between;
+
+    align-items: center;
+
+    background-color: $link-color;
+
+    padding: 0 90px;
+}
+
+.logo {
+    align-items: center;
+
+    gap: 25px;
+}
+
+.logo-text {
+    @extend %textTitleThree;
+
+    color: $text-color-2;
+}
+
+.link-text-1 {
+    gap: 70px;
+}
+
+.link-text {
+    @extend %textLink;
+
+    color: $text-color-2;
+}
+
+.link-text:hover {
+    color: $bg-color;
+
+    font-size: 20px;
+}

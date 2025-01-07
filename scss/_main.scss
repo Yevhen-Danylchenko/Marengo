@@ -1,0 +1,389 @@
+
+
+/* ========================= Section 1 ======================= */
+
+.content {
+    position: relative;
+    height: 910px;
+    background-image: linear-gradient(to bottom,#F5F5F5,#60A2B8);
+}
+
+.text h1 {
+    width: 720px;
+
+    position: absolute;
+
+    @extend %textTitle;
+
+    color: $title-color;
+
+    top: 290px;
+    left: 90px;
+}
+
+.text p {
+    width: 540px;
+
+    position: absolute;
+
+    @extend %textPar;
+
+    color: $text-color;
+
+    top: 461px;
+    left: 90px;
+}
+
+.link {
+    width: 259px;
+    height: 57px;
+
+    position: absolute;
+
+    background-color: $bg-color;
+
+    text-align: center;
+
+    padding-top: 14px;
+
+    top: 624px;
+    left: 90px;
+}
+
+.link a {
+    @extend %link;
+
+    text-transform: uppercase;
+
+    color: $link-color;
+}
+
+.photo {
+    position: absolute;
+
+    top: 253px;
+    left: 763px;
+}
+
+.photo-2 {
+    position: absolute;
+
+    top: 731px;
+    left: 722px;
+
+    z-index: 1;
+}
+
+/* ====================== Section 2 ================== */
+
+.div-content {
+    width: 100%;
+
+    position: relative;
+}
+
+.div-title {
+    position: absolute;
+
+    top: 120px;
+
+    left: 90px;
+}
+
+.div-title-1 {
+    position: absolute;
+
+    top: 120px;
+
+    left: 570px;
+}
+
+.div-title-2 {
+    position: absolute;
+
+    top: 120px;
+
+    left: 1050px;
+}
+
+.div-title h3 {
+    @extend %textTitleThree;
+
+    text-align: center;
+
+    color: $text-color;
+
+    margin-top: 25px;
+}
+
+.div-title-1 h3 {
+    @extend %textTitleThree;
+
+    text-align: center;
+
+    color: $text-color;
+
+    margin-top: 25px;
+}
+
+.div-title-2 h3 {
+    @extend %textTitleThree;
+
+    text-align: center;
+
+    color: $text-color;
+
+    margin-top: 25px;
+}
+
+/* ========================== Section 3 ==================== */
+
+.div-wine-group {
+    width: 100%;
+
+    position: relative;
+
+    top: 705px;
+}
+
+.wine {
+    position: absolute;
+
+    left: 90px;
+
+}
+
+.div-wine-group h2 {
+    width: 450px;
+
+    @extend %textTitleTwo;
+
+    position: absolute;
+
+    color: $title-2-color;
+
+    top: 13px;
+    left: 1050px;
+}
+
+.div-wine-group p {
+    @extend %textWinePar;
+
+    position: absolute;
+
+    color: $text-color;
+
+    top: 171px;
+    left: 1050px;
+}
+
+.link-1 {
+    width: 229px;
+    height: 57px;
+
+    position: absolute;
+
+    background-color: $bg-color;
+
+    text-align: center;
+
+    padding-top: 18px;
+
+    top: 335px;
+    left: 1050px;
+}
+
+.link-1 a {
+    @extend %textLinkTwo;
+
+    text-transform: uppercase;
+
+    color: $link-color;
+}
+
+// ======================= Section 4 ======================
+
+.div-offers {
+    width: 100%;
+
+    position: relative;
+
+    background-color: $bg-color;
+
+    padding: 115px 90px 131px;
+
+    top: 1292px
+}
+
+.div-offers h2 {
+    @extend %textTitleOffers;
+
+    text-align: center;
+
+    text-transform: uppercase;
+
+    color: $link-color;
+}
+
+.div-offers-content {
+    gap: 20px;
+
+}
+
+.offers-title {
+    @extend %textTitleOffersTwo;
+
+    width: 374px;
+
+    text-align: center;
+
+    text-transform: uppercase;
+
+    color: $link-color;
+
+    margin-top: -100px;
+    margin-left: 40px;
+}
+
+.offers-title-two {
+    @extend %textTitleOffersTwo;
+
+    width: 374px;
+
+    text-align: center;
+
+    text-transform: uppercase;
+
+    color: $link-color;
+
+    margin-top: -140px;
+    margin-left: 40px;
+}
+
+// ========================== Section 5 =======================
+
+.div-content-marengo {
+    width: 100%;
+
+    position: relative;
+
+    gap: 20px;
+
+    padding: 120px 90px 102px;
+
+    top: 1292px;
+}
+
+.marengo-content h2 {
+    @extend %textTitleMarengo;
+
+    color: $title-2-color;
+}
+
+.marengo-content p {
+    @extend %link;
+
+    width: 600px;
+
+    color: $text-color;
+}
+
+.marengo-content-div {
+    justify-content: center;
+
+    gap: 20px;
+}
+
+.marengo-content-div div {
+    margin-bottom: 30px;
+}
+
+.marengo-content-div p {
+    @extend %textTitleThree;    
+
+    text-transform: uppercase;
+
+    color: $title-2-color;
+
+}
+
+.marengo-content-div p span {
+    @extend %link;
+
+    text-transform: none;
+
+    color: $text-color;
+}
+
+// ============================= Section 6 ========================
+
+.div-people {
+    width: 100%;
+
+    background-color: $bg-color;
+
+    justify-content: space-around;
+    align-items: center;
+
+    padding: 111px 128px 56px;
+
+    margin-top: 1277px;
+}
+
+.div-people h3 {
+    @extend %textTitleOffersTwo;
+
+    text-align: center;
+    
+    color: $text-color-2;
+}
+
+.div-people p {
+    @extend %textTitleThree;
+
+    text-align: center;
+
+    color: $link-color;
+}
+
+// ============================ Section 7 ========================
+
+.div-rest-content {
+    gap: 70px;
+
+    padding-top: 120px;
+}
+
+.div-rest-content h2 {
+    @extend %textTitleMarengo;
+
+    text-transform: uppercase;
+
+    text-align: center;
+
+    color: $title-2-color;
+
+    margin-left: 60px;
+    
+}
+
+.div-rest-content p {
+    @extend %textPar;
+
+    color: $text-color;
+}
+
+.div-content-rest {
+    gap: 79px;
+
+    margin-left: 60px;
+    margin-bottom: 51px;
+}
+
+.div-content-rest p {
+    @extend %textTitleThree;
+
+    text-align: center;
+
+    color: $title-2-color;
+}
